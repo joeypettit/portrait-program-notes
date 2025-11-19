@@ -5,45 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concert Program</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+            font-family: Georgia, serif;
+        }
+        .title-font {
+            font-family: 'Anton', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <header class="my-4">
-            <h1 class="text-center">Concert Program</h1>
+            <div class="text-center mb-4">
+                <img src="public/fm-kicks-logo.png" alt="Kicks Logo" class="img-fluid" style="max-height: 150px;">
+            </div>
+            <h1 class="text-center title-font mb-2" style="font-size: 3rem; font-weight: bold; letter-spacing: 0.05em;">PORTRAIT IN SEVEN SHADES</h1>
+            <p class="text-center mb-3" style="font-size: 1.1rem;">by Ted Nash (2007)</p>
             <nav class="navbar navbar-expand-lg navbar-light justify-content-center mt-3">
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="index.html">Home</a>
-                    <a class="nav-link" href="artists-bios.html">Artists Bios</a>
+                    <a class="nav-link active" href="index.html">Concert Program</a>
+                    <a class="nav-link" href="artists-bios.html">Artist & Musician Bios</a>
                     <a class="nav-link" href="program-notes.html">Program Notes</a>
+                    <a class="nav-link" href="our-donors.html">Our Donors</a>
                 </div>
             </nav>
         </header>
 
-        <main>
-            <section class="mb-4">
-                <h2 class="h4 text-center">Event Details</h2>
-                <p class="text-center">Join us for an evening of sensational music performed by world-class artists.</p>
-            </section>
+        <main class="mt-5">
+            <div class="mt-5" style="max-width: 800px; margin: 0 auto;">
+                <h2 class="h3 text-center mb-4 title-font">Concert Program</h2>
+                <div class="mb-4" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="font-weight: bold; font-size: 1.2rem;">MONET</div>
+                    <div style="text-align: right;">
+                        <div>John DiFiori, soprano sax</div>
+                        <div>Matt Patnode, alto flute</div>
+                    </div>
+                </div>
 
-            <section class="mb-4 text-center">
-                <h3 class="h4">Program</h3>
-                <ul class="list-unstyled">
-                    <li>7:00 PM - Opening Performance</li>
-                    <li>7:30 PM - Solo Artist</li>
-                    <li>8:00 PM - Ensemble Piece</li>
-                    <li>9:00 PM - Finale</li>
-                </ul>
-            </section>
+                <div class="mb-4" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="font-weight: bold; font-size: 1.2rem;">DALÍ</div>
+                    <div style="text-align: right;">
+                        <div>Erika Izaguirre, trumpet</div>
+                        <div>Paul Liversage, alto sax</div>
+                        <div>Matt Tinjum, drums</div>
+                    </div>
+                </div>
 
-            <section class="text-center">
-                <h3 class="h4">Location</h3>
-                <p>Concert Hall, Downtown City</p>
-            </section>
+                <div class="mb-4" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="font-weight: bold; font-size: 1.2rem;">MATISSE</div>
+                    <div style="text-align: right;">
+                        <div>Eric Dill, baritone sax</div>
+                        <div>Doug Neil, bass</div>
+                    </div>
+                </div>
+
+                <div class="mb-4" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="font-weight: bold; font-size: 1.2rem;">PICASSO</div>
+                    <div style="text-align: right;">
+                        <div>Steve Wallevand, trombone</div>
+                        <div>Jon Lucht, trumpet</div>
+                    </div>
+                </div>
+
+                <div class="mb-4" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="font-weight: bold; font-size: 1.2rem;">VAN GOGH</div>
+                    <div style="text-align: right;">
+                        <div>Jeremy Brekke, trumpet</div>
+                        <div>Amy Johnson, vocals</div>
+                    </div>
+                </div>
+
+                <div class="mb-4" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="font-weight: bold; font-size: 1.2rem;">CHAGALL</div>
+                    <div style="text-align: right;">
+                        <div>Diane Townsend, accordion</div>
+                        <div>Christopher Marion, violin</div>
+                    </div>
+                </div>
+
+                <div class="mb-4" style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <div style="font-weight: bold; font-size: 1.2rem;">POLLOCK</div>
+                    <div style="text-align: right;">
+                        <div>Matt Patnode, alto sax</div>
+                        <div>Bruce Geske, trombone</div>
+                        <div>Steve Wallevand, trombone</div>
+                        <div>Christopher Marion, violin</div>
+                        <div>Jon Lucht, trumpet</div>
+                    </div>
+                </div>
+            </div>
         </main>
 
-        <footer class="text-center mt-4">
-            <p>&copy; 2023 Concert Program. All rights reserved.</p>
-        </footer>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
